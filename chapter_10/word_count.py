@@ -9,7 +9,7 @@ def count_words(filename):
         words = contents.split()
         num_words = len(words)
         print(f"The file {filename} has about {num_words} words.")
-
-filenames = ['alice.txt', 'siddhartha.txt', 'moby_dick.txt', 'little_women.txt']
+p = 'py/pcc_2e/chapter_10/'
+filenames = [p+'alice.txt', p+'siddhartha.txt', p+'moby_dick.txt', 'little_women.txt']
 for filename in filenames:
     count_words(filename)

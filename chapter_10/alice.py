@@ -1,3 +1,4 @@
+# filename = 'py/pcc_2e/chapter_10/alice.txt'
 filename = 'alice.txt'
 
 try:

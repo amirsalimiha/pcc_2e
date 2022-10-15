@@ -1,4 +1,4 @@
-filename = 'pi_million_digits.txt'
+filename = 'py/pcc_2e/chapter_10/pi_million_digits.txt'
 
 with open(filename) as file_object:
     lines = file_object.readlines()
